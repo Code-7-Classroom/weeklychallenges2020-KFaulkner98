@@ -1,0 +1,28 @@
+.outline{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    width: 800px;
+    border: solid 15px;
+  }
+  
+  .red-stripe{
+    height: 25px;
+    width: 800px;
+    background: red;
+    padding-top: 1.3%;
+  }
+  
+  .white-stripe{
+    height: 25px;
+    width: 800px;
+    background: white;
+  }
+  
+  img{
+      height: 218px;
+      width: 350px;
+      position: absolute;
+  }
+  

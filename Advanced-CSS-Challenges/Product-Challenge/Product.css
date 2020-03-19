@@ -1,0 +1,57 @@
+.product-filter{
+  display: flex;
+  background: rgb(165, 164, 164);
+  
+}
+
+.product-filter h1{
+  flex-grow: 1;
+  padding-left: 50px;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(248, 248, 248);
+}
+/* Product Cards */
+.products-card{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  display: flex;  /*So child elements can use flexbox too */
+  flex-direction: column;
+  border: solid 5px rgb(83, 82, 82);
+  justify-content: center;
+  align-items: center;
+}
+/* Product Pic */
+.product-image img{
+  max-width: 100%;
+}
+/* Product Info/Price */
+.product-info{
+text-align: center;
+margin-top: auto;
+background: rgb(238, 237, 237);
+box-shadow: 10px 5px;
+}
+
+.product-info h3{
+align-self: center;
+}
+/* Learn More Button */
+.products-card button{
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  background-color:black;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 15px;
+}
+
+.products-card button:hover{
+  opacity: 0.7;
+}
