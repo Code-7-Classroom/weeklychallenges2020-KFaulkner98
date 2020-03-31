@@ -1,0 +1,149 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body {
+    font-family: 'Bebas Neue';font-size: 22px;
+    line-height: 1.7em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+/* Navbar */
+#navbar{
+    background: rgb(212, 211, 211);
+    color: rgb(74, 157, 253);
+    overflow: auto;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+#navbar a{
+    color: rgb(0, 0, 0);
+}
+
+#navbar h1{
+    padding-top: 20px;
+    text-shadow: aliceblue 2px 2px;
+    padding-left: 410px;
+    font-size: 60px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: left;
+    padding-top: 10px;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: rgb(172, 170, 170);
+    color: rgb(250, 251, 252);
+    border-radius: 2em;
+}
+
+/* Utility Class */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    background: rgb(255, 255, 255); /*212, 211, 211*/
+    color: rgb(74, 157, 253);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#main-footer h3{
+    text-shadow: aliceblue 2px 2px;
+}
+
+#main-footer p{
+    font-size: 15px;
+}
+
+/* Reach Out */
+#reach-out {
+    background: rgb(255, 255, 255);
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+#reach-out h1{
+    padding-left: 186px;
+    padding-top: 25px;
+    font-size: 40px;
+}
+
+#reach-out p{
+    padding-left: 186px;
+    padding-top: 15px;
+}
+
+#reach-out .form{
+    padding-left: 186px;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+#reach-out input[type=text], select, textarea{
+    width: 80%; 
+    padding: 15px 20px;
+    border: 5px solid currentcolor; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 20px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    text-align:left;
+    display:block;
+}
+
+#reach-out .message{
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#reach-out input[type=submit]:hover{
+    opacity: 0.7;
+    background-color: rgb(74, 157, 253);;
+}
+
