@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+#btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;   
+    font-weight: bolder;
+}
+
+.btn1{
+    background: gray;
+}
+
+.btn2{
+    background: gray;
+}
