@@ -1,0 +1,63 @@
+{
+    "employees":[{
+        "name":"Austin",
+        "id":1,
+        "salary":55000,
+        "job":"Back End Developer"
+    },
+    {
+        "name":"Cody",
+        "id":2,
+        "salary":750000,
+        "job":"HR Department"
+    },
+    {
+        "name":"Wilson",
+        "id":3,
+        "salary":65000,
+        "job":"Sales Department"
+    },
+    {
+        "name":"Leo",
+        "id":4,
+        "salary":55000,
+        "job":"Back End Developer"
+    },
+    {
+        "name":"Daniel",
+        "id":5,
+        "salary":"Front End Developer"
+    },
+    {
+        "name":"DJ",
+        "id":6,
+        "salary":65000,
+        "job":"Sales Department"
+    },
+    {
+        "name":"David",
+        "id":7,
+        "salary":80000,
+        "job":"Full Stack Developer"
+    },
+    {
+        "name":"Josh",
+        "id":8,
+        "salary":70000,
+        "job":"Sales Department"
+    },
+    {
+        "name":"Treena",
+        "id":9,
+        "salary":80000,
+        "job":"HR Department"
+    },
+    {
+        "name":"Kyle",
+        "id":10,
+        "salary":300000,
+        "job":"CEO"
+    }
+]
+
+}
