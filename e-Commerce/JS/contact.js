@@ -1,4 +1,4 @@
-function validateForm() {
+function validateForm() { // Won't allow for you to leave the form boxes blank
     var x = document.forms["myForm"]["name"].value;
     var y = document.forms["myForm"]["email"].value;
     if (x == "" && y == "") {

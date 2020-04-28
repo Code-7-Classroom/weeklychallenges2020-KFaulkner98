@@ -29,7 +29,7 @@ prevBtn.addEventListener('click', () => { // Previous button will go back a slid
 
 });
 
-carouselSlide.addEventListener('transitionend', () => {
+carouselSlide.addEventListener('transitionend', () => { // Allows for a smoother transition between the first and last slides
     if (carouselImages[counter].id === 'lastClone'){
         carouselSlide.style.transition = "none";
         counter = carouselImages.length - 2;
